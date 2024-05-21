@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.564.0",
@@ -23,8 +24,10 @@
     "@types/formidable": "^3.4.5",
     "archiver": "^7.0.1",
     "axios": "^1.6.8",
+    "eslint-config-prettier": "^9.1.0",
     "formidable": "^3.5.1",
     "next": "14.2.3",
+    "prettier": "^3.2.5",
     "react": "^18",
     "react-dom": "^18"
   },
